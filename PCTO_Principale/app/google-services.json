@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "24874082040",
+    "project_id": "pcto---2023---cosenza",
+    "storage_bucket": "pcto---2023---cosenza.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24874082040:android:08cbd027e09d31b1b5250d",
+        "android_client_info": {
+          "package_name": "com.nttData.CS.pcto_principal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24874082040-hfr4e7vt49bq194746a0sl21soc26apr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nttData.CS.pcto_principal",
+            "certificate_hash": "db6a9409cce7ee9d6274f766374091354b972cb0"
+          }
+        },
+        {
+          "client_id": "24874082040-m8aqnf6uh9vqlctnitopk2v63plhmkj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZrVrJS916v3NPeqRK14gP1DtywcArJuo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24874082040-ekrl990rehs5njtkfcv11fd3j56r4oeg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

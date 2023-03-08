@@ -6,11 +6,64 @@
     android:layout_height="match_parent"
     tools:context=".Home">
 
+    <ImageView
+        android:id = "@+id/image_user"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text = "@string/user_name_title"
+        />
+
+    <TextView
+        android:id = "@+id/name_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintTop_toBottomOf="@id/image_user"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text = "@string/user_name_title"
+        />
+
+    <TextView
+        android:id = "@+id/name_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintTop_toBottomOf = "@id/name_title"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id = "@+id/mail_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintTop_toBottomOf = "@id/name_user"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text = "@string/user_mail_title"
+        />
+    <TextView
+        android:id = "@+id/mail_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintTop_toBottomOf = "@id/mail_title"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
     <Button
         android:id = "@+id/sign_out_button"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text = "logout"
+        android:text = "@string/user_logout"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PCTO_Principal</string>
+
+    <string name="user_name_title">Name:</string>
+    <string name="user_mail_title">Email:</string>
+    <string name="user_logout">Logout</string>
+
 </resources>

@@ -9,7 +9,7 @@
     <Button
         android:id = "@+id/sign_out_button"
         android:layout_width="100dp"
-        android:layout_height="30dp"
+        android:layout_height="wrap_content"
         android:text = "logout"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"

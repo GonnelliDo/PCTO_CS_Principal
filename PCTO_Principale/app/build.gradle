@@ -6,6 +6,15 @@ plugins {
 android {
     compileSdk 33
 
+    signingConfigs {
+        config {
+            storeFile file('../app/keystore/PCTOSHA1')
+            storePassword 'PCTOSHA1'
+            keyAlias 'PCTOSHA1'
+            keyPassword 'PCTOSHA1'
+        }
+    }
+
     defaultConfig {
         applicationId "com.nttData.CS.pcto_principal"
         minSdk 20
@@ -14,12 +23,18 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.config
     }
 
     buildTypes {
         release {
+            debuggable false
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable true
+            signingConfig signingConfigs.config
         }
     }
     compileOptions {
